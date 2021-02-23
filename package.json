@@ -1,0 +1,35 @@
+{
+  "name": "@llkennedy/sleep.js",
+  "version": "1.0.0",
+  "description": "Sleep",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "private": false,
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llkennedy/sleep.js.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "query"
+  ],
+  "author": "Luke Kennedy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llkennedy/sleep.js/issues"
+  },
+  "homepage": "https://github.com/llkennedy/sleep.js#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {}
+}
